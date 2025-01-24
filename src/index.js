@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
-import Navbar from "./navbar";
-import History from "./History";
-import Content from "./Content";
+import Navbar from "./components/navbar";
+import History from "./views/History";
+import Content from "./views/Content";
 import "./index.css"
 
 const root = createRoot(document.getElementById("root"));
